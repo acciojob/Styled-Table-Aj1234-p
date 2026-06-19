@@ -1,1 +1,32 @@
 /* your code */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+}
+
+.table-container{
+	height:100%;
+	width:100%;
+	background-color: grey;
+	border-radius:7px;
+}
+
+.table-container td{
+	padding:5px;
+}
+
+.row13{
+	background-color:white;
+	border: 1px solid aquamarine;
+}
+
+.row24{
+	background-color:lightblue;
+}
